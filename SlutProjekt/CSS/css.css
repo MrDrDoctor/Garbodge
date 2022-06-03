@@ -91,6 +91,7 @@ P.blocktext {
 body {
   background-image: url(../IMGLibr/Background_0.jpg);
   color: whitesmoke;
+  height: 90%;
 }
 .copyright {
   position: absolute;
