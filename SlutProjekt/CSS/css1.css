@@ -11,43 +11,61 @@ ul {
     display: block;
   }
   
-  @media only screen and (min-width:320px) {
-    body {
-        background-color: purple;
-    }
+@media only screen and (min-width:320px) {
+  body {
+      background-color: lightblue;
+  }
+  .bahthon {
+      height: 20%;
+      width: 50%;
+  }
+  .botan {
+      height: 20%;
+      width: 50%;
+  }
+}
+@media only screen and (min-width:480px) {
+  body {
+      background-color: blue;
+    
+  }
     .bahthon {
-      height: 50%;
+      height: 20%;
       width: 50%;
   }
-  }
-  @media only screen and (min-width:480px) {
-    body {
-        background-color: hotpink;
-    }
-      .bahthon {
-      height: 50%;
+    .botan {
+      height: 20%;
       width: 50%;
   }
+}
+
+@media only screen and (min-width: 794px) {
+  body {
+      background-color: darkslateblue;
   }
-  
-  @media only screen and (min-width: 794px) {
-    body {
-        background-color: darkslateblue;
-    }
-        .bahthon {
-      height: 50%;
+    .bahthon {
+      height: 20%;
       width: 50%;
   }
-  }
-  
-  @media only screen and (min-width: 1020px) {
-    body {
-        background-color: white;
-    }
-        .bahthon {
-      height: 50%;
+    .botan {
+      height: 20%;
       width: 50%;
   }
+}
+
+@media only screen and (min-width: 1020px) {
+  body {
+      background-color: white;
+  }
+    .bahthon {
+      height: 20%;
+      width: 50%;
+  }
+  .botan {
+      height: 20%;
+      width: 50%;
+  }
+}
   }
   P.blocktext {
     margin: center;
