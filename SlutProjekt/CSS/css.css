@@ -15,11 +15,20 @@ ul {
   body {
       background-color: lightblue;
   }
+  .bahthon {
+      height: 50%;
+      width: 50%;
+  }
 
 }
 @media only screen and (min-width:480px) {
   body {
       background-color: blue;
+    
+  }
+    .bahthon {
+      height: 50%;
+      width: 50%;
   }
   
 }
@@ -28,11 +37,19 @@ ul {
   body {
       background-color: darkslateblue;
   }
+    .bahthon {
+      height: 50%;
+      width: 50%;
+  }
 }
 
 @media only screen and (min-width: 1020px) {
   body {
       background-color: white;
+  }
+    .bahthon {
+      height: 50%;
+      width: 50%;
   }
 }
 P.blocktext {
@@ -121,7 +138,7 @@ body {
   border: 3px solid #555555;
   border-radius: 50%;
   width: 500px;
-  position: absolute; top: 40%; left: 25%;
+  position: absolute; top: 50%; left: 25%;
 }
 .botan:hover {
   background-color: #555555;
@@ -138,7 +155,7 @@ body {
   border: 3px solid #222222;
   border-radius: 50%;
   width: 500px;
-  position: absolute; top: 40%; left: 51%;
+  position: absolute; top: 50%; left: 51%;
 }
 .bahthon:hover {
   background-color: #222222;
