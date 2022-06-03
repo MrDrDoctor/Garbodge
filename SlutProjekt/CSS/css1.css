@@ -15,25 +15,39 @@ ul {
     body {
         background-color: purple;
     }
-  
+    .bahthon {
+      height: 50%;
+      width: 50%;
+  }
   }
   @media only screen and (min-width:480px) {
     body {
         background-color: hotpink;
     }
-    
+      .bahthon {
+      height: 50%;
+      width: 50%;
+  }
   }
   
   @media only screen and (min-width: 794px) {
     body {
         background-color: darkslateblue;
     }
+        .bahthon {
+      height: 50%;
+      width: 50%;
+  }
   }
   
   @media only screen and (min-width: 1020px) {
     body {
         background-color: white;
     }
+        .bahthon {
+      height: 50%;
+      width: 50%;
+  }
   }
   P.blocktext {
     margin: center;
